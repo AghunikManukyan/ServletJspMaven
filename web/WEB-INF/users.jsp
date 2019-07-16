@@ -12,7 +12,6 @@
     User user = (User) request.getAttribute("user");
 
 %>
-<%=user.getName()%> <%=user.getSurname()%>
 
 <h2>All Users</h2>
 <table border="1">
